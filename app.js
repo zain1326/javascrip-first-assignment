@@ -72,11 +72,11 @@ var _abc;
 
 // illegal variables
 
-var 1abx;
-var alert = 0;
-var ZAIN = 2;
-var var ;
-var .z ; 
+// var 1abx;
+// var alert = 0;
+// var ZAIN = 2;
+// var var ;
+// var .z ; 
 
 document.write("<h1>Rules for naming JS variables</h1>");
 document.write("<br>" + "<br>");
