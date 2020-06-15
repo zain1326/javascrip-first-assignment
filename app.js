@@ -689,7 +689,7 @@ else{
         alert("Please Enter correct time")
 }
 
-                // ******** ASSIGNMENT NO 9 (FROM 14 TO 16 CHAPERS) ******* 
+                // ******** ASSIGNMENT NO 9 (FROM 14 TO 16 CHAPTERS) ******* 
 
 var literal_notaion = [];
 var  object_notation = { myarray:[] }
@@ -789,4 +789,91 @@ var compony = ["Apple","Samsung","Qmobile"];
 
 document.write("<select>" +"<option>"+  compony[0]  + "</option>" + "<option>"+ compony[1]  +  "</option>"+"<option>"+ compony[2]  +  "</option>" +  "</option>"  +  "</select>");
 
+        // ASSIGNMENT NO 10 (FROM CHAPTER 17 TO 20)
 
+        var multi_array = [[]];
+var matrix = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+for(i=1; i <= 10; i++){
+    document.write(i + "<br>");
+}
+
+TABLE 
+
+var table =+prompt("Enter a number to show its multiplication");
+var tLength =+prompt("Enter Length Multiplication Table");
+
+for( i = 1; i <= tLength; i++){
+    document.write(table + " x " + i + " = " + table*i + "<br>");
+}
+
+var fruits = ["apple","banana","mango","orange","strawberry"];
+
+for(i = 0; i < fruits.length; i++){
+    document.write(fruits[i] + "<br>");
+}
+for(i = 0; i < fruits.length; i++){
+    document.write( "Element at index " + i + " is " + fruits[i] + "<br>")
+}
+document.write("Counting: ")
+for(i = 1; i<=15; i++){
+    document.write(i + ",");    
+}
+
+document.write("<br>"+"Reverse Counting: ")
+for(i = 10; i>=1; i--){
+    document.write(i + ",");    
+}
+
+document.write("<br>"+"Even: ")
+for(i=0; i<=20; i=i+2){
+    document.write(i + ",");    
+}
+
+document.write("<br>"+"Odd: ")
+for(i=1; i<=20; i=i+3){
+    document.write(i + ",");    
+}
+
+document.write("<br>"+"Series: ")
+for(i=2; i<=20; i=i+2){
+    document.write(i +"k" + ",");    
+}
+
+ var things = ["cake","apple pie","cookie","chips","patties"];
+
+var finding = prompt("Welcom to Al-Barkat Bakery.what do you want to order sir/ma'am");
+var thingFind;
+for(i=0; i<things.length;i++){
+    if(finding === things[i]){  
+        thingFind = i;       
+        break; 
+}
+}
+if( thingFind >= 0){
+    document.write(finding + " is <b>available<b> at index " + i + " in our bakery");
+}
+else{
+    document.write("We are sorry."+finding + " is <b> not available <b> in our bakery")  
+}
+
+var largest = [24, 53, 78, 91, 12];
+document.write("Array Items: " + largest + "<br>")
+var setting = largest.sort();
+var largeindex = setting.length-1;
+document.write("The largest number is: " + largest[largeindex] + "<br>")
+
+document .write("<br>")
+
+var smallest = [24, 53, 78, 91, 12];
+document.write("Array Items: " + largest + "<br>")
+var setting = largest.sort();
+var reverse = setting.reverse();
+var largeindex = setting.length-1;
+document.write("The smallest number is: " + largest[largeindex] + "<br>")
+
+for(i=1; i<=100; i++){
+    if(i%5 === 0){
+        document.write(i + ",")
+    }
+}
